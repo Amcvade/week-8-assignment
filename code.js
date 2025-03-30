@@ -23,8 +23,8 @@ class Menu {
 
     // Add a new phone
     addPhone() {
-        let make = prompt("Enter phone make:");
-        let model = prompt("Enter phone model:");
+        let Make = prompt("Enter phone make:");
+        let Model = prompt("Enter phone model:");
         let newPhone = new Phone(samsung, galaxy); // Create a new Phone object
         this.phones.push(newPhone); // Add it to the phones array
         console.log("Phone added:", newPhone);
